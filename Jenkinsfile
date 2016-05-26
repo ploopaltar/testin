@@ -4,5 +4,5 @@ node {
    stage 'Stage 2'
    echo 'Hello World 2'
    stage 'Stage 3'
-   node -v
+   bash node -v
 }
