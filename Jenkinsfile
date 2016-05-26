@@ -5,6 +5,6 @@ node {
    echo 'Hello World 2'
    stage 'Stage 3'
    echo "${env.PATH}"
-   echo '${who}'
-   sh 'node -v'
+   bash 'ls'
+   bash 'node -v'
 }
