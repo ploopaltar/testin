@@ -1,3 +1,4 @@
+// run only on slave-terry node
 node ('slave-terry') {
    stage 'Stage 1'
    echo 'Hello World 1'
