@@ -1,7 +1,7 @@
 // run only on slave-terry node 
 node ('slave-terry') {
    stage 'Stage 1'
-   echo 'Hello World 1 pikachu!!v'
+   echo 'Hello World 1'
    stage 'Stage 2'
    // display the docker version
    def dockerVer = captureOutput('docker -v')
